@@ -1,0 +1,4 @@
+/Users/alexanderkinnear/Desktop/CS3460/assn6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alexanderkinnear/Desktop/CS3460/assn6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alexanderkinnear/Desktop/CS3460/assn6/cmake-build-debug/CMakeFiles/ClangFormat.dir
+/Users/alexanderkinnear/Desktop/CS3460/assn6/cmake-build-debug/CMakeFiles/ConwaysLife.dir
