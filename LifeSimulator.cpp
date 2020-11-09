@@ -40,11 +40,11 @@ bool LifeSimulator::getCell(std::uint8_t x, std::uint8_t y) const
 
 void LifeSimulator::insertPattern(const Pattern& pattern, std::uint8_t startX, std::uint8_t startY)
 {
-    for (uint8_t i = 0; i < pattern.getSizeX(); i++)
+    for (uint8_t i = 0; i < pattern.getSizeY(); i++)
     {
-        for (uint8_t j = 0; j < pattern.getSizeY(); j++)
+        for (uint8_t j = 0; j < pattern.getSizeX(); j++)
         {
-            grid[startX + i][startY + j] = pattern.getCell(i, j);
+            grid[startY + i][startX + j] = pattern.getCell(i, j);
         }
     }
 }

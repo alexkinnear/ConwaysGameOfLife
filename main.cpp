@@ -14,18 +14,16 @@ int main()
     PatternGosperGliderGun gosperGliderGun;
     LifeSimulator game(rlutil::trows(), rlutil::tcols());
     RendererConsole r;
-    game.insertPattern(acorn, 20, 5);
-    game.insertPattern(blinker, 15, 10);
-    game.insertPattern(glider, 30, 15);
-    game.insertPattern(gosperGliderGun, 30, 15);
-    //    game.insertPattern(acorn, 0, 0);
-    //    game.insertPattern(blinker, 0, 0);
-    //    game.insertPattern(glider, 0, 0);
-    //    game.insertPattern(gosperGliderGun, 0, 0);
+    game.insertPattern(acorn, 10, 10);
+    game.insertPattern(blinker, 45, 5);
+    game.insertPattern(glider, 25, 5);
+    game.insertPattern(gosperGliderGun, 20, 25);
+
     for (int i = 0; i < 100; i++)
     {
+        std::this_thread::sleep_for(std::chrono::milliseconds(100));
         r.render(game);
         game.update();
-        std::this_thread::sleep_for(std::chrono::milliseconds(10));
     }
+    rlutil::showcursor();
 }

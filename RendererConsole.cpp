@@ -12,11 +12,11 @@ void RendererConsole::render(const LifeSimulator& simulation)
         {
             if (simulation.getCell(i, j))
             {
-                rlutil::locate(i, j);
+                rlutil::locate(j, i);
                 rlutil::setChar('*');
             }
         }
     }
-    rlutil::showcursor();
-    rlutil::cls();
+    //    rlutil::showcursor();
+    std::cout << std::flush;
 }
