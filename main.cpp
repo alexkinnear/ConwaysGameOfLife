@@ -1,6 +1,7 @@
 #include "LifeSimulator.hpp"
 #include "PatternAcorn.hpp"
 #include "PatternBlinker.hpp"
+#include "PatternBlock.hpp"
 #include "PatternGlider.hpp"
 #include "PatternGosperGliderGun.hpp"
 #include "RendererConsole.hpp"
@@ -10,14 +11,16 @@ int main()
 {
     PatternAcorn acorn;
     PatternBlinker blinker;
+    PatternBlock block;
     PatternGlider glider;
     PatternGosperGliderGun gosperGliderGun;
     LifeSimulator game(rlutil::trows(), rlutil::tcols());
     RendererConsole r;
-    game.insertPattern(acorn, 10, 10);
-    game.insertPattern(blinker, 45, 5);
-    game.insertPattern(glider, 25, 5);
-    game.insertPattern(gosperGliderGun, 20, 25);
+    game.insertPattern(acorn, 45, 45);
+    game.insertPattern(blinker, 5, 35);
+    game.insertPattern(block, 15, 35);
+    game.insertPattern(glider, 45, 5);
+    game.insertPattern(gosperGliderGun, 2, 2);
 
     for (int i = 0; i < 100; i++)
     {

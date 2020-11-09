@@ -32,6 +32,10 @@ vector
 Pattern.hpp
 /Users/alexanderkinnear/Desktop/CS3460/assn6/Pattern.hpp
 
+/Users/alexanderkinnear/Desktop/CS3460/assn6/PatternBlock.hpp
+Pattern.hpp
+/Users/alexanderkinnear/Desktop/CS3460/assn6/Pattern.hpp
+
 /Users/alexanderkinnear/Desktop/CS3460/assn6/PatternGlider.hpp
 Pattern.hpp
 /Users/alexanderkinnear/Desktop/CS3460/assn6/Pattern.hpp
@@ -55,6 +59,8 @@ PatternAcorn.hpp
 /Users/alexanderkinnear/Desktop/CS3460/assn6/PatternAcorn.hpp
 PatternBlinker.hpp
 /Users/alexanderkinnear/Desktop/CS3460/assn6/PatternBlinker.hpp
+PatternBlock.hpp
+/Users/alexanderkinnear/Desktop/CS3460/assn6/PatternBlock.hpp
 PatternGlider.hpp
 /Users/alexanderkinnear/Desktop/CS3460/assn6/PatternGlider.hpp
 PatternGosperGliderGun.hpp

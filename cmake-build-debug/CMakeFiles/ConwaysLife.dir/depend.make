@@ -16,6 +16,7 @@ CMakeFiles/ConwaysLife.dir/main.cpp.o: ../LifeSimulator.hpp
 CMakeFiles/ConwaysLife.dir/main.cpp.o: ../Pattern.hpp
 CMakeFiles/ConwaysLife.dir/main.cpp.o: ../PatternAcorn.hpp
 CMakeFiles/ConwaysLife.dir/main.cpp.o: ../PatternBlinker.hpp
+CMakeFiles/ConwaysLife.dir/main.cpp.o: ../PatternBlock.hpp
 CMakeFiles/ConwaysLife.dir/main.cpp.o: ../PatternGlider.hpp
 CMakeFiles/ConwaysLife.dir/main.cpp.o: ../PatternGosperGliderGun.hpp
 CMakeFiles/ConwaysLife.dir/main.cpp.o: ../Renderer.hpp
